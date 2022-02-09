@@ -1,11 +1,11 @@
 # Korištenje Pythona pri ispitivanju svojstava binarne relacije nad zadanim skupom
 
 ## Opći podaci projekta:
-**Predmet:** Matematika 1
-**Studenti:** Tin Pritišanac, Neven Davidović, Noel Modrušan
-**Vrsta projekta:** Računalno riješen matematički problem
-**Programski jezik:** Python
-**Literatura:** Papić, P., Uvod u teoriju skupova, HMD, 2000.
+**Predmet:** Matematika 1  
+**Studenti:** Tin Pritišanac, Neven Davidović, Noel Modrušan  
+**Vrsta projekta:** Računalno riješen matematički problem  
+**Programski jezik:** Python  
+**Literatura:** Papić, P., Uvod u teoriju skupova, HMD, 2000.  
 
 _____________________________________________________________________________
 ### Sažetak
@@ -21,13 +21,13 @@ Program se sastoji od zasebnih funkcija čija je zadaća ispitati svojstva binar
 Svaka od funkcija ispituje po jedno svojstvo binarne relacije te vraća tip podatka *bool* glavnoj funkciji iz koje su pozvane. Ono što prethodi vraćanju rezultata je grafički prikaz odnosa uređenih parova unutar same konzole. 
 _____________________________________________________________________________
 **Struktura programa:**
-1. [Funkcija za unos podataka](#1.-Funkcija-za-unos-podataka)
-2.  [Funkcija za ispitivanje tranzitivnosti binarne relacije](#2.-Funkcija-za-ispitivanje-tranzitivnosti-binarne-relacije)
-3.  [Funkcija za ispitivanje refleksivnosti binarne relacije](#3.-Funkcija-za-ispitivanje-refleksivnosti-binarne-relacije)
-4.  [Funkcija za ispitivanje antirefleksivnosti binarne relacije](#4.-Funkcija-za-ispitivanje-antirefleksivnosti-binarne-relacije)
-5.  [Funkcija za ispitivanje simetričnosti binarne relacije](#5.-Funkcija-za-ispitivanje-simetričnosti-binarne-relacije)
-6. [Funkcija za ispitivanje antisimetričnosti binarne relacije](#6.-Funkcija-za-ispitivanje-antisimetričnosti-binarne-relacije)
-7. [Glavna funkcija](#7.-Glavna-funkcija)
+1. [Funkcija za unos podataka](-1.-Funkcija-za-unos-podataka)
+2. [Funkcija za ispitivanje tranzitivnosti binarne relacije](-2.-Funkcija-za-ispitivanje-tranzitivnosti-binarne-relacije)
+3. [Funkcija za ispitivanje refleksivnosti binarne relacije](-3.-Funkcija-za-ispitivanje-refleksivnosti-binarne-relacije)
+4. [Funkcija za ispitivanje antirefleksivnosti binarne relacije](-4.-Funkcija-za-ispitivanje-antirefleksivnosti-binarne-relacije)
+5. [Funkcija za ispitivanje simetričnosti binarne relacije](-5.-Funkcija-za-ispitivanje-simetričnosti-binarne-relacije)
+6. [Funkcija za ispitivanje antisimetričnosti binarne relacije](-6.-Funkcija-za-ispitivanje-antisimetričnosti-binarne-relacije)
+7. [Glavna funkcija](-7.-Glavna-funkcija)
 
 
 **Ostale značajke:**
@@ -171,7 +171,7 @@ ____
 ## Zaključak
 
 ---
-[Povratak na vrh](#Opći-podaci-projekta)
+[Povratak na vrh](-Opći-podaci-projekta)
 
 
 
