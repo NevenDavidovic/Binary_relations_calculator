@@ -5,25 +5,27 @@ Binarna relacija se naziva **simetričnom** ako ima svojstvo da ako je lement x 
 | --------- |
 | 1. Funkcija prima 1 parametar( listaParova )          |
 | 2. Za svaki element(x,y) u listi parova tvori par sa zamijenjenim elementima (y,x)          |
-| 3. Ako barem jedan takav par nije u listi parova vrati *False*          |
+| 3. Ako barem jedan takav par nije u listi parova ispiši NE i vrati *False*          |
 | 4. Ako su svi tako tvoreni parovi u listi parova ispiši "DA"         |
 | 5. I vrati *True*          |
 
 
-*Programski kod:*
+**Programski kod:**
 ```python
-#Funkcija koja provjerava simetričnost binarne relacije
-
 def simetricnost(listaParova:list)->bool:
-    print('Simetrična:',end=' ')
-    # za svaki (x,y) mora postojati (y,x) unutar liste parova
-    for element in listaParova:
-        if element[0] == element[1]: continue
-        trazeniE = (element[1],element[0])
-        if not trazeniE in listaParova:
-            print(f'NE jer za {formatStr(element)} ne postoji {formatStr(trazeniE)} unutar liste parova')
-            return False
-    print('DA')
-    return True
+    with open('Relacije.txt', 'a') as f:
+        print('Simetricna:',end=' ')
+        print('Simetricna:',end=' ',file=f)
+        # za svaki (x,y) mora postojati (y,x) unutar liste parova
+        for element in listaParova:
+            if element[0] == element[1]: continue
+            trazeniE = (element[1],element[0])
+            if not trazeniE in listaParova:
+                print(f'NE jer za {formatStr(element)} ne postoji {formatStr(trazeniE)} unutar liste parova')
+                print(f'NE jer za {formatStr(element)} ne postoji {formatStr(trazeniE)} unutar liste parova',file=f)
+                return False
+        print('DA')
+        print('DA',file=f)
+        return True
 
 ```
