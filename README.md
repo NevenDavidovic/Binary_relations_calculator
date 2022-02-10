@@ -25,13 +25,13 @@ Korištene su biblioteke Regular expression operations(re), random i time.
 
 _____________________________________________________________________________
 **STRUKTURA PROGRAMA I ALGORITMI:**  
- [Funkcija za unos podataka](Funkcije/UnosPodataka.md)  
- [Funkcija za ispitivanje tranzitivnosti binarne relacije](Funkcije/Tranzitivnost.md)    
- [Funkcija za ispitivanje refleksivnosti binarne relacije](Funkcije/Refleksivnost.md)  
- [Funkcija za ispitivanje antirefleksivnosti binarne relacije](Funkcije/Antirefleksivnost.md)  
- [Funkcija za ispitivanje simetričnosti binarne relacije](Funkcije/Simetričnost.md)    
- [Funkcija za ispitivanje antisimetričnosti binarne relacije](Funkcije/Antisimetričnost.md)  
- [**Glavna funkcija**](Funkcije/GlavnaFunkcija.md) 
+ - [Funkcija za unos podataka](Funkcije/UnosPodataka.md)  
+ - [Funkcija za ispitivanje tranzitivnosti binarne relacije](Funkcije/Tranzitivnost.md)    
+ - [Funkcija za ispitivanje refleksivnosti binarne relacije](Funkcije/Refleksivnost.md)  
+ - [Funkcija za ispitivanje antirefleksivnosti binarne relacije](Funkcije/Antirefleksivnost.md)  
+ - [Funkcija za ispitivanje simetričnosti binarne relacije](Funkcije/Simetričnost.md)    
+ - [Funkcija za ispitivanje antisimetričnosti binarne relacije](Funkcije/Antisimetričnost.md)  
+ - [**Glavna funkcija**](Funkcije/GlavnaFunkcija.md) 
 
 
 **Ostale značajke:**
