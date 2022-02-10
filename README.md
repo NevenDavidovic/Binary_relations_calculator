@@ -4,7 +4,7 @@
 **Predmet:** Matematika 1  
 **Studenti:** Tin Pritišanac, Neven Davidović, Noel Modrušan  
 **Vrsta projekta:** Računalno riješen matematički problem  
-**Ime programa:** Ispitivac binarnih relacija v1.0  
+**Ime programa:** Ispitivač binarnih relacija v1.0  
 **Literatura:** Papić, P., Uvod u teoriju skupova, HMD, 2000.  
 
 _____________________________________________________________________________
