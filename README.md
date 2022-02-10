@@ -39,7 +39,7 @@ _____________________________________________________________________________
 **Ostale funkcije:**
 - [Grafički prikaz uređenih parova unutar tablice](Features/GrafickiPrikaz.md)
 - [Nasumično generiranje zadataka](Features/RandomGeneriranje.md)
-- [Ispis rezultata u tekstualnu datoteku](IspisRezultata.md)  
+- [Ispis rezultata u tekstualnu datoteku](Features/IspisRezultata.md)  
 - Funkcija za provjeru unosa
   
 
