@@ -14,7 +14,7 @@ Binarna je relacija antirefleksivna kada ima svojstvo da za **∀x,y∈A:(xRy �
 |7. Vrati *True*|
 |8. Ispiši sve u tekstualnu datoteku(.txt)|
 
-*Programski kod:*
+**Programski kod:**
 ```python
 def antisimetricnost(listaParova:list)->bool:
     with open('Relacije.txt', 'a') as f:
