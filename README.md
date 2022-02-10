@@ -1,5 +1,5 @@
 # Korištenje Pythona pri ispitivanju svojstava binarne relacije nad zadanim skupom
-
+<a id="top"></a>
 ## Opći podaci projekta:
 **Predmet:** Matematika 1  
 **Studenti:** Tin Pritišanac, Neven Davidović, Noel Modrušan  
@@ -21,13 +21,13 @@ Program se sastoji od zasebnih funkcija čija je zadaća ispitati svojstva binar
 Svaka od funkcija ispituje po jedno svojstvo binarne relacije te vraća tip podatka *bool* glavnoj funkciji iz koje su pozvane.   Ono što prethodi vraćanju rezultata je grafički prikaz odnosa uređenih parova unutar same konzole. 
 _____________________________________________________________________________
 **Struktura programa:**
-1. [Funkcija za unos podataka](#1.-Funkcija-za-unos-podataka)
-2.  [Funkcija za ispitivanje tranzitivnosti binarne relacije](#2.-Funkcija-za-ispitivanje-tranzitivnosti-binarne-relacije)
-3.  [Funkcija za ispitivanje refleksivnosti binarne relacije](#3.-Funkcija-za-ispitivanje-refleksivnosti-binarne-relacije)
-4.  [Funkcija za ispitivanje antirefleksivnosti binarne relacije](#4.-Funkcija-za-ispitivanje-antirefleksivnosti-binarne-relacije)
-5.  [Funkcija za ispitivanje simetričnosti binarne relacije](#5.-Funkcija-za-ispitivanje-simetričnosti-binarne-relacije)
-6. [Funkcija za ispitivanje antisimetričnosti binarne relacije](#6.-Funkcija-za-ispitivanje-antisimetričnosti-binarne-relacije)
-7. [Glavna funkcija](#7.-Glavna-funkcija)
+1. <a href="#1">Funkcija za unos podataka</a>
+2. <a href="#2">Funkcija za ispitivanje tranzitivnosti binarne relacije</a>
+3. <a href="#3">Funkcija za ispitivanje refleksivnosti binarne relacije</a>
+4. <a href="#4">Funkcija za ispitivanje antirefleksivnosti binarne relacije</a>[](#4.-Funkcija-za-ispitivanje-antirefleksivnosti-binarne-relacije)
+5. <a href="#5">Funkcija za ispitivanje simetričnosti binarne relacije</a>
+6. <a href=#6>Funkcija za ispitivanje antisimetričnosti binarne relacije</a>
+7. <a href=#7>Glavna funkcija</a>
 
 
 **Ostale značajke:**
@@ -37,7 +37,7 @@ _____________________________________________________________________________
 
 ____
 
-### 1. Funkcija za unos podataka
+### 1. Funkcija za unos podataka <a id="1"></a>
 
 
 
@@ -51,7 +51,7 @@ Jednostavna funkcija koja traži od korisnika unos elemenata skupa, broj parova 
 | 3. Unos uređenih parova     |
 
 ----
-### 2. Funkcija za ispitivanje tranzitivnosti binarne relacije
+### 2. Funkcija za ispitivanje tranzitivnosti binarne relacije <a id="2"></a>
 Binarna relacija je relacija sa svojstvom da ako su **(x,y)∈A i (y,z)∈A** tada mora biti i da su **(x,z)∈A**.
 
 
@@ -68,7 +68,7 @@ Binarna relacija je relacija sa svojstvom da ako su **(x,y)∈A i (y,z)∈A** ta
 
 
 *Programski kod:*
-```python=
+```python
 #Funkcija koja provjerava tranzitivnost binarne relacije
 
 def tranzitivnost(listaParova:list)->bool:
@@ -90,7 +90,7 @@ def tranzitivnost(listaParova:list)->bool:
 ```
 
 ----
-### 3. Funkcija za ispitivanje refleksivnosti binarne relacije
+### 3. Funkcija za ispitivanje refleksivnosti binarne relacije <a id="3"></a>
 Relacija je **refleksivna** ako za **∀x∈A :(xRx)** .To znači da je relacija refleksivna ako je element u odnosu sam sa sobom. 
 Ispitivanje refleksivnosti relacije smo programski riješili uz pomoć dolje navedenog algoritma. 
 
@@ -106,7 +106,7 @@ Ispitivanje refleksivnosti relacije smo programski riješili uz pomoć dolje nav
 | 7.  Vrati *True*                                                                            |
 
 *Programski kod:*
-```python=
+```python
 #Funkcija koja provjerava refleksivnost binarne relacije
 
 def refleksivnost(skupA:list,listaParova:list)->bool:
@@ -121,7 +121,7 @@ def refleksivnost(skupA:list,listaParova:list)->bool:
     return True
 ```
 ----
-### 4. Funkcija za ispitivanje antirefleksivnosti binarne relacije
+### 4. Funkcija za ispitivanje antirefleksivnosti binarne relacije <a id="4"></a>
 
 Binarna je relacija **antirefleksivna** ako za **∀x∈A: ~(xRx)**. To znači da niti jedan element nekog zajedničkog skupa nije u u odnosu sam sa sobom.
 
@@ -135,7 +135,7 @@ Binarna je relacija **antirefleksivna** ako za **∀x∈A: ~(xRx)**. To znači d
 |6. Ako nema takvog para vrati *True*
 
 *Programski kod:*
-```python=
+```python
 def antirefleksivnost(skupA:list,listaParova:list)->bool:
     print('Antirefleksivna:',end=' ')
     # za svaki x ∈ skupa A u NE SMIJE postojati (x,x) u listi parova 
@@ -149,7 +149,7 @@ def antirefleksivnost(skupA:list,listaParova:list)->bool:
 
 ```
 ----
-### 5. Funkcija za ispitivanje simetričnosti binarne relacije
+### 5. Funkcija za ispitivanje simetričnosti binarne relacije <a id="5"></a>
 Binarna relacija se naziva **simetričnom** ako ima svojstvo da ako je lement x u relaciji sa y, tad ujedno i y u relaciji sa x. To znači ako je uređeni par **(x,y)∈A** onda je i **(y,x)∈A**. 
 
 | Algoritam |
@@ -162,7 +162,7 @@ Binarna relacija se naziva **simetričnom** ako ima svojstvo da ako je lement x 
 
 
 *Programski kod:*
-```python=
+```python
 #Funkcija koja provjerava simetričnost binarne relacije
 
 def simetricnost(listaParova:list)->bool:
@@ -179,7 +179,7 @@ def simetricnost(listaParova:list)->bool:
 
 ```
 ----
-### 6. Funkcija za ispitivanje antisimetričnosti binarne relacije
+### 6. Funkcija za ispitivanje antisimetričnosti binarne relacije <a id="6"></a>
 
 Binarna je relacija antirefleksivna kada ima svojstvo da za **∀x,y∈A:(xRy ∧ yRx)->x=y.** To znači da je relacija antisimetrična za svaki uređeni par koji je dio zajedničkog skupa, ako su elementi unutar uređenog para su jednaki i u relaciji sa sobom.
 
@@ -195,7 +195,7 @@ Binarna je relacija antirefleksivna kada ima svojstvo da za **∀x,y∈A:(xRy �
 |7. Vrati *True*
 
 *Programski kod:*
-```python=
+```python
 #Funkcija koja provjerava antisimetričnost binarne relacije
 
 def antisimetricnost(listaParova:list)->bool:
@@ -212,7 +212,7 @@ def antisimetricnost(listaParova:list)->bool:
 
 ```
 ----
-### 7. Glavna funkcija i interpretacija rezultata
+### 7. Glavna funkcija i interpretacija rezultata <a id="7"></a>
 
 Glavna funkcija()
 
@@ -224,8 +224,8 @@ Glavna funkcija()
 ## Zaključak
 
 ---
-[Povratak na vrh](#Opći-podaci-projekta)
 
+<a href="#top">Povratak na vrh</a>
 
 
 
