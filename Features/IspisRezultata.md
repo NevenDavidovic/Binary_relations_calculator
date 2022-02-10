@@ -7,9 +7,26 @@ Ispis sadržava:
 - grafički prikaz   
 - rezultat koji govori koja svojstva ima binarna relacija          
   
-   
+ _____________________________________________________________________ 
+ **Programski kod za ispis skupa i uređenih parova te grafičkog prikaza**
+   ```python
+   def ispisUlaznihPodataka():
+    print('\nUneseni parovi su:')
+    print(formatStr(listaParova))
+    #ispis skupa
+    stringSkupa = str(skupA).replace("[","{").replace("]","}")
+    print(f'\nSkup A = {stringSkupa}')
+
+    #ispis u file
+    with open('Relacije.txt', 'a') as f:
+        print('\nUneseni parovi su:', file=f)
+        print(formatStr(listaParova), file=f)
+        print(f'\nSkup A = {stringSkupa}', file=f)
+    #graficki prikaz relacije
+    graficki(listaParova,skupA)
+   ```
   
-  
+____________________________________________________________________________  
       
 **Primjer jednog ispisa**
 ```
