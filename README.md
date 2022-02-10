@@ -39,7 +39,7 @@ _____________________________________________________________________________
 - [Nasumično generiranje zadataka](Features/RandomGeneriranje.md)
 - [Ispis rezultata u tekstualnu datoteku](IspisRezultata.md)
 
-
+_____________________________________________________________________________
 ### Shema rada programa
 
 ![](Shema.png)
