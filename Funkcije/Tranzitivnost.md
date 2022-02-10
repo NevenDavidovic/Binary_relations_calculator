@@ -8,13 +8,13 @@ Binarna relacija je relacija sa svojstvom da ako su **(x,y)∈A i (y,z)∈A** ta
 | 2. Uspoređuje elemente na indexu  [1] i indexu [0]  |
 | 3. Ako su isti preskoči na drugi par u listi parova |
 | 4.  Ako nisu spremi ih u listu B                    |
-|                                                     |
-|                                                     |
-|                                                     |
-|                                                     |
+| 5. Ako lista B nema elemenata nastavi na kraj                                                   |
+| 6. Tvori element od indeksa [0] i [1] iz b liste unutar varijable implicElement                                                  |
+| 7. Ako implicElement nije u listi parova ispiši "NE" i razlog te vrati *False*                                                    |
+| 8. Inače ispiši "DA" i vrati *True*                                                    |
 
 
-*Programski kod:*
+**Programski kod:**
 ```python
 def tranzitivnost(listaParova:list)->bool:
     with open('Relacije.txt', 'a') as f:
