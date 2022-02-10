@@ -5,7 +5,6 @@
 **Studenti:** Tin Pritišanac, Neven Davidović, Noel Modrušan  
 **Vrsta projekta:** Računalno riješen matematički problem  
 **Ime programa:** Ispitivac binarnih relacija v1.0  
-**Programski jezik:** Python  
 **Literatura:** Papić, P., Uvod u teoriju skupova, HMD, 2000.  
 
 _____________________________________________________________________________
@@ -21,25 +20,24 @@ _____________________________________________________________________________
 Program počinje sa izbornikom koji omogućava korisniku da ili sam izabere skup i uređene parove ili da to program napravi umjesto njega.
 Osim izbornika program se sastoji od zasebnih funkcija čija je zadaća ispitati svojstva binarne relacije. Korisniku su dostupne mogućnosti unosa nove liste parova, brisanje postojećih i dodavanje novih parova, nakon čega će se ponovo ispisati odgovarajući rezultat. 
 Svaka od funkcija ispituje po jedno svojstvo binarne relacije te vraća tip podatka *bool* glavnoj funkciji iz koje su pozvane.   Ono što prethodi vraćanju rezultata je grafički prikaz odnosa uređenih parova unutar same konzole.  
-Nakon provjere nad zadanim skupom i listom parova rezultati se ispisuju u tekstualnu datoteku. 
+Nakon provjere nad zadanim skupom i listom parova rezultati se ispisuju u tekstualnu datoteku.  
+Korištene su biblioteke Regular expression operations(re), random i time. 
+
 _____________________________________________________________________________
-**Struktura programa:**  
-Pomoćne funkcije:
- 
- <a href="#1">Funkcija za unos podataka</a>
- 
- <a href="#2">Funkcija za ispitivanje tranzitivnosti binarne relacije</a>  
- <a href="#3">Funkcija za ispitivanje refleksivnosti binarne relacije</a>  
- <a href="#4">Funkcija za ispitivanje antirefleksivnosti binarne relacije</a>  
- <a href="#5">Funkcija za ispitivanje simetričnosti binarne relacije</a>  
- <a href=#6>Funkcija za ispitivanje antisimetričnosti binarne relacije</a>  
- <a href=#7>Glavna funkcija</a>  
+**STRUKTURA PROGRAMA I ALGORITMI:**  
+ [Funkcija za unos podataka](UnosPodataka.md)  
+ [Funkcija za ispitivanje tranzitivnosti binarne relacije](Funkcije/Tranzitivnost.md)    
+ [Funkcija za ispitivanje refleksivnosti binarne relacije](Funkcije/Refleksivnost.md)  
+ [Funkcija za ispitivanje antirefleksivnosti binarne relacije](Funkcije/Antirefleksivnost.md)  
+ [Funkcija za ispitivanje simetričnosti binarne relacije](Funkcije/Simetričnost.md)    
+ [Funkcija za ispitivanje antisimetričnosti binarne relacije](Funkcije/Antisimetričnost.md)  
+ [**Glavna funkcija**](Funkcije/GlavnaFunkcija.md) 
 
 
 **Ostale značajke:**
-- Grafički prikaz uređenih parova unutar tablice
-- Nasumično generiranje zadataka
-- Ispis rezultata u tekstualnu datoteku
+- [Grafički prikaz uređenih parova unutar tablice]()
+- [Nasumično generiranje zadataka]()
+- [Ispis rezultata u tekstualnu datoteku]()
 
 ____
 
@@ -155,7 +153,7 @@ def antirefleksivnost(skupA:list,listaParova:list)->bool:
 
 ```
 ----
-###  Funkcija za ispitivanje simetričnosti binarne relacije <a id="5"></a>
+###  Funkcija za ispitivanje simetričnosti binarne relacije 
 Binarna relacija se naziva **simetričnom** ako ima svojstvo da ako je lement x u relaciji sa y, tad ujedno i y u relaciji sa x. To znači ako je uređeni par **(x,y)∈A** onda je i **(y,x)∈A**. 
 
 | Algoritam |
