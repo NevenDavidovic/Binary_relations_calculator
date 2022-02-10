@@ -15,16 +15,18 @@ Ispitivanje refleksivnosti relacije smo programski riješili uz pomoć dolje nav
 
 *Programski kod:*
 ```python
-#Funkcija koja provjerava refleksivnost binarne relacije
-
 def refleksivnost(skupA:list,listaParova:list)->bool:
-    print('Refleksivna:',end=' ')
-    # za svaki x ∈ skupa A u mora postojati (x,x) u listi parova 
-    for element in skupA:
-        trazeniE = (element[0],element[0])
-        if not trazeniE in listaParova:
-            print(f'NE jer za element "{element}" ne postoji par {formatStr(trazeniE)} unutar liste parova')
-            return False
-    print("DA")
-    return True
+    with open('Relacije.txt', 'a') as f:
+        print('Refleksivna:',end=' ')
+        print('Refleksivna:',end=' ',file=f)
+        # za svaki x ∈ skupa A mora postojati (x,x) u listi parova 
+        for element in skupA:
+            trazeniE = (element[0],element[0])
+            if not trazeniE in listaParova:
+                print(f'NE jer za element "{element}" ne postoji par {formatStr(trazeniE)} unutar liste parova')
+                print(f'NE jer za element "{element}" ne postoji par {formatStr(trazeniE)} unutar liste parova',file=f)
+                return False
+        print("DA")
+        print("DA",file=f)
+        return True
 ```
