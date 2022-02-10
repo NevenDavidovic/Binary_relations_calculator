@@ -5,9 +5,11 @@ Ispis sadržava:
 - naziv programa   
 - uneseni skup i unesene parove  
 - grafički prikaz   
-- rezultat koji govori koja svojstva ima binarna relacija  
+- rezultat koji govori koja svojstva ima binarna relacija          
   
-    
+   
+  
+  
       
 **Primjer jednog ispisa**
 ```
