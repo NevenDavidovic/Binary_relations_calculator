@@ -4,30 +4,36 @@
 **Predmet:** Matematika 1  
 **Studenti:** Tin Pritišanac, Neven Davidović, Noel Modrušan  
 **Vrsta projekta:** Računalno riješen matematički problem  
+**Ime programa:** Ispitivac binarnih relacija v1.0  
 **Programski jezik:** Python  
 **Literatura:** Papić, P., Uvod u teoriju skupova, HMD, 2000.  
 
 _____________________________________________________________________________
 ### Sažetak
 
-U ovom projektu smo izradili računalni program u programskom jeziku Python koji će na temelju korisnikovog unosa parova binarne relacije ispitati njena svojstva (refleksivnost, simetričnost, asimetričnost, antisimetričnost, tranzitivnost) te korisniku jasno naznačiti rezultate ovog ispitivanja.  
+U ovom projektu smo izradili računalni program u programskom jeziku Python koji će na temelju korisnikovog unosa ili generiranog nasumičnog skupa parova binarne relacije  ispitati njena svojstva (refleksivnost, simetričnost, asimetričnost, antisimetričnost, tranzitivnost) te korisniku jasno naznačiti rezultate ovog ispitivanja.  
 Cilj izrade ove vrste programa je da se koristi za brzu provjeru rješenja zadataka iz područja binarnih relacija nad skupovima, te brže rješavanje dužih tipova zadataka. Isto tako korisniku želimo prikazati razloge zbog kojih su pojedina svojstva točna ili netočna, kako bi stekao bolje razumijevanje procesa ispitivanja binarnih relacija nad zadanim skupom. 
 
 _____________________________________________________________________________
 
 ### Opis programa
 
-Program se sastoji od zasebnih funkcija čija je zadaća ispitati svojstva binarne relacije. Korisniku su dostupne mogućnosti unosa nove liste parova, brisanje postojećih i dodavanje novih parova, nakon čega će se ponovo ispisati odgovarajući rezultat. 
-Svaka od funkcija ispituje po jedno svojstvo binarne relacije te vraća tip podatka *bool* glavnoj funkciji iz koje su pozvane.   Ono što prethodi vraćanju rezultata je grafički prikaz odnosa uređenih parova unutar same konzole. 
+Program počinje sa izbornikom koji omogućava korisniku da ili sam izabere skup i uređene parove ili da to program napravi umjesto njega.
+Osim izbornika program se sastoji od zasebnih funkcija čija je zadaća ispitati svojstva binarne relacije. Korisniku su dostupne mogućnosti unosa nove liste parova, brisanje postojećih i dodavanje novih parova, nakon čega će se ponovo ispisati odgovarajući rezultat. 
+Svaka od funkcija ispituje po jedno svojstvo binarne relacije te vraća tip podatka *bool* glavnoj funkciji iz koje su pozvane.   Ono što prethodi vraćanju rezultata je grafički prikaz odnosa uređenih parova unutar same konzole.  
+Nakon provjere nad zadanim skupom i listom parova rezultati se ispisuju u tekstualnu datoteku. 
 _____________________________________________________________________________
-**Struktura programa:**
-1. <a href="#1">Funkcija za unos podataka</a>
-2. <a href="#2">Funkcija za ispitivanje tranzitivnosti binarne relacije</a>
-3. <a href="#3">Funkcija za ispitivanje refleksivnosti binarne relacije</a>
-4. <a href="#4">Funkcija za ispitivanje antirefleksivnosti binarne relacije</a>[](#4.-Funkcija-za-ispitivanje-antirefleksivnosti-binarne-relacije)
-5. <a href="#5">Funkcija za ispitivanje simetričnosti binarne relacije</a>
-6. <a href=#6>Funkcija za ispitivanje antisimetričnosti binarne relacije</a>
-7. <a href=#7>Glavna funkcija</a>
+**Struktura programa:**  
+Pomoćne funkcije:
+ 
+ <a href="#1">Funkcija za unos podataka</a>
+ 
+ <a href="#2">Funkcija za ispitivanje tranzitivnosti binarne relacije</a>  
+ <a href="#3">Funkcija za ispitivanje refleksivnosti binarne relacije</a>  
+ <a href="#4">Funkcija za ispitivanje antirefleksivnosti binarne relacije</a>  
+ <a href="#5">Funkcija za ispitivanje simetričnosti binarne relacije</a>  
+ <a href=#6>Funkcija za ispitivanje antisimetričnosti binarne relacije</a>  
+ <a href=#7>Glavna funkcija</a>  
 
 
 **Ostale značajke:**
@@ -37,7 +43,7 @@ _____________________________________________________________________________
 
 ____
 
-### 1. Funkcija za unos podataka <a id="1"></a>
+###  Funkcija za unos podataka <a id="1"></a>
 
 
 
@@ -51,7 +57,7 @@ Jednostavna funkcija koja traži od korisnika unos elemenata skupa, broj parova 
 | 3. Unos uređenih parova     |
 
 ----
-### 2. Funkcija za ispitivanje tranzitivnosti binarne relacije <a id="2"></a>
+###  Funkcija za ispitivanje tranzitivnosti binarne relacije <a id="2"></a>
 Binarna relacija je relacija sa svojstvom da ako su **(x,y)∈A i (y,z)∈A** tada mora biti i da su **(x,z)∈A**.
 
 
@@ -90,7 +96,7 @@ def tranzitivnost(listaParova:list)->bool:
 ```
 
 ----
-### 3. Funkcija za ispitivanje refleksivnosti binarne relacije <a id="3"></a>
+###  Funkcija za ispitivanje refleksivnosti binarne relacije <a id="3"></a>
 Relacija je **refleksivna** ako za **∀x∈A :(xRx)** .To znači da je relacija refleksivna ako je element u odnosu sam sa sobom. 
 Ispitivanje refleksivnosti relacije smo programski riješili uz pomoć dolje navedenog algoritma. 
 
@@ -121,7 +127,7 @@ def refleksivnost(skupA:list,listaParova:list)->bool:
     return True
 ```
 ----
-### 4. Funkcija za ispitivanje antirefleksivnosti binarne relacije <a id="4"></a>
+###  Funkcija za ispitivanje antirefleksivnosti binarne relacije <a id="4"></a>
 
 Binarna je relacija **antirefleksivna** ako za **∀x∈A: ~(xRx)**. To znači da niti jedan element nekog zajedničkog skupa nije u u odnosu sam sa sobom.
 
@@ -149,7 +155,7 @@ def antirefleksivnost(skupA:list,listaParova:list)->bool:
 
 ```
 ----
-### 5. Funkcija za ispitivanje simetričnosti binarne relacije <a id="5"></a>
+###  Funkcija za ispitivanje simetričnosti binarne relacije <a id="5"></a>
 Binarna relacija se naziva **simetričnom** ako ima svojstvo da ako je lement x u relaciji sa y, tad ujedno i y u relaciji sa x. To znači ako je uređeni par **(x,y)∈A** onda je i **(y,x)∈A**. 
 
 | Algoritam |
@@ -179,7 +185,7 @@ def simetricnost(listaParova:list)->bool:
 
 ```
 ----
-### 6. Funkcija za ispitivanje antisimetričnosti binarne relacije <a id="6"></a>
+###  Funkcija za ispitivanje antisimetričnosti binarne relacije <a id="6"></a>
 
 Binarna je relacija antirefleksivna kada ima svojstvo da za **∀x,y∈A:(xRy ∧ yRx)->x=y.** To znači da je relacija antisimetrična za svaki uređeni par koji je dio zajedničkog skupa, ako su elementi unutar uređenog para su jednaki i u relaciji sa sobom.
 
@@ -212,7 +218,7 @@ def antisimetricnost(listaParova:list)->bool:
 
 ```
 ----
-### 7. Glavna funkcija i interpretacija rezultata <a id="7"></a>
+###  Glavna funkcija i interpretacija rezultata <a id="7"></a>
 
 Glavna funkcija()
 
