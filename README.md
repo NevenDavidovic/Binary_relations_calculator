@@ -40,7 +40,7 @@ _____________________________________________________________________________
 - [Ispis rezultata u tekstualnu datoteku](IspisRezultata.md)
 
 
-**Cjelokupan programski kod:**
+**Cjelokupan programski kod:**  
 [Ispitivač binarnih relacija v1.0](Programski_kod.md)
 ____________________________________________________________________________
 ### Shema rada programa
