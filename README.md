@@ -44,7 +44,7 @@ _____________________________________________________________________________
   
 
 **Cjelokupan programski kod:**  
-- [Ispitivač binarnih relacija v1.0](Ispitivač binarnih relacija v1.0.py)
+- [Ispitivač binarnih relacija v1.0](ProgramskiKod.md)
 ____________________________________________________________________________
 ### Shema rada programa
 
