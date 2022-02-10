@@ -9,8 +9,8 @@ Binarna je relacija **antirefleksivna** ako za **∀x∈A: ~(xRx)**. To znači d
 | 3. Ukoliko je najmanje jedan takav par u listi parova                                                 |
 | 4. Ispiši "NE"                                                 |
 | 5. Vrati *False* 
-| 6. Ispiši "DA"
-| 7. Ako nema takvog para vrati *True* |
+| 6. Ako nema takvog para
+| 7. ispiši "DA" i vrati *True* |
 
 **Programski kod:**
 ```python
