@@ -1,6 +1,10 @@
 # Grafički prikaz  
   
-![Grafički prikaz elemenata binarne relacije unutar tablice](Grafičkiprikaz.png)
+![Grafički prikaz elemenata binarne relacije unutar tablice](Grafičkiprikaz.png)  
+  
+    
+      
+ **Programski kod:**       
     
     
 ```python
