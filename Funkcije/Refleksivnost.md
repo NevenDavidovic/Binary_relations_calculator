@@ -13,7 +13,7 @@ Ispitivanje refleksivnosti relacije smo programski riješili uz pomoć dolje nav
 | 6.  Ispiši na ekran "DA"                                                                               |
 | 7.  Vrati *True*                                                                            |
 
-*Programski kod:*
+**Programski kod:**
 ```python
 def refleksivnost(skupA:list,listaParova:list)->bool:
     with open('Relacije.txt', 'a') as f:
