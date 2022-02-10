@@ -1,6 +1,6 @@
 ## Glavna funkcija  
 
-Glavna funkcija prima rezultate tipa *bool* iz ostalih pomoćnih funkcija.
+Glavna funkcija prima rezultate tipa *bool* iz funkcija za određivanje binarnih relacija te cjelobrojni tip podatka od izbora unutar glavnog izbornika.
 
 ```python
 ###___MAIN FUNKCIJA___
