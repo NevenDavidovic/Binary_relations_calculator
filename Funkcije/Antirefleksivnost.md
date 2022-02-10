@@ -10,7 +10,8 @@ Binarna je relacija **antirefleksivna** ako za **∀x∈A: ~(xRx)**. To znači d
 | 4. Ispiši "NE"                                                 |
 | 5. Vrati *False* 
 | 6. Ako nema takvog para
-| 7. ispiši "DA" i vrati *True* |
+| 7. ispiši "DA" i vrati *True*  |
+| 8. Ispiši sve u tekstualnu datoteku|
 
 **Programski kod:**
 ```python
