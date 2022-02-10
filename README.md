@@ -25,6 +25,8 @@ Korištene su biblioteke Regular expression operations(re), random i time.
 
 _____________________________________________________________________________
 **STRUKTURA PROGRAMA :**  
+  
+**Glavne funkcije:**
  - [Funkcija za unos podataka](Funkcije/UnosPodataka.md)  
  - [Funkcija za ispitivanje tranzitivnosti binarne relacije](Funkcije/Tranzitivnost.md)    
  - [Funkcija za ispitivanje refleksivnosti binarne relacije](Funkcije/Refleksivnost.md)  
@@ -34,11 +36,12 @@ _____________________________________________________________________________
  - [**Glavna funkcija**](Funkcije/GlavnaFunkcija.md) 
 
 
-**Ostale značajke:**
+**Ostale funkcije:**
 - [Grafički prikaz uređenih parova unutar tablice](Features/GrafickiPrikaz.md)
 - [Nasumično generiranje zadataka](Features/RandomGeneriranje.md)
-- [Ispis rezultata u tekstualnu datoteku](IspisRezultata.md)
-
+- [Ispis rezultata u tekstualnu datoteku](IspisRezultata.md)  
+- Funkcija za provjeru unosa
+  
 
 **Cjelokupan programski kod:**  
 - [Ispitivač binarnih relacija v1.0](Programski_kod.md)
