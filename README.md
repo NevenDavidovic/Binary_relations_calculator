@@ -52,7 +52,8 @@ ____________________________________________________________________________
 _____________________________________________________________________________
 ## Zaključak
 
-Ovakva vrsta programa uvelike može pomoći pri testiranju svojstava binarnih relacija nad zadanim skupom, ali i kao alat za generiranje zadataka i rješenja. Osim rezultata svojim objašnjenjima pomaže razjasniti zašto su određena svojstva prisutna,a  zašto određena nisu.  
+Ovakva vrsta programa uvelike može pomoći pri testiranju svojstava binarnih relacija nad zadanim skupom, ali i kao alat za generiranje zadataka i rješenja.   
+Osim rezultata svojim objašnjenjima pomaže razjasniti zašto su određena svojstva prisutna, a  zašto određena nisu.  
 
 _________________________________________________________________________________
 <a href="#top">Povratak na vrh</a>
