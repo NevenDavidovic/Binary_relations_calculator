@@ -24,7 +24,7 @@ Nakon provjere nad zadanim skupom i listom parova rezultati se ispisuju u tekstu
 Korištene su biblioteke Regular expression operations(re), random i time. 
 
 _____________________________________________________________________________
-**STRUKTURA PROGRAMA I ALGORITMI:**  
+**STRUKTURA PROGRAMA :**  
  - [Funkcija za unos podataka](Funkcije/UnosPodataka.md)  
  - [Funkcija za ispitivanje tranzitivnosti binarne relacije](Funkcije/Tranzitivnost.md)    
  - [Funkcija za ispitivanje refleksivnosti binarne relacije](Funkcije/Refleksivnost.md)  
@@ -39,7 +39,10 @@ _____________________________________________________________________________
 - [Nasumično generiranje zadataka](Features/RandomGeneriranje.md)
 - [Ispis rezultata u tekstualnu datoteku](IspisRezultata.md)
 
-_____________________________________________________________________________
+
+**Cjelokupan programski kod:**
+[Ispitivač binarnih relacija v1.0](Programski_kod.md)
+____________________________________________________________________________
 ### Shema rada programa
 
 ![](Shema.png)
