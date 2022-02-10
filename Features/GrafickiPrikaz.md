@@ -1,6 +1,6 @@
 # Grafički prikaz  
   
-  [Grafički prikaz unutar programa](Ispitivač binarnih relacija v1.0.png)
+  ![Grafički prikaz unutar programa](Ispitivač binarnih relacija v1.0.png)
     
     
 ```python
