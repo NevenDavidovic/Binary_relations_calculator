@@ -1,18 +1,18 @@
 ###  Funkcija za ispitivanje antisimetričnosti binarne relacije <a id="6"></a>
 
-Binarna je relacija antirefleksivna kada ima svojstvo da za **∀x,y∈A:(xRy ∧ yRx)->x=y.** To znači da je relacija antisimetrična za svaki uređeni par koji je dio zajedničkog skupa, ako su elementi unutar uređenog para su jednaki i u relaciji sa sobom.
+Neka je ρ binarna relacija na skupu A.
+Binarna je relacija **antisimetrična** ako za svaki **(x,y) ∈ A × A, (x,y) ∈ ρ ∧ (y,x) ∈ ρ ⇒ x = y**. 
+To znači da ako za svaki uređeni par relacije (x,y) postoji i (x,y), tada mora vrijediti x = y.
 
 
 | Algoritam |
 | --------- |
 | 1. Funkcija prima listu parova kao parametar(listaParova)           |
-| 2. Za svaki x,y u listi parova provjeri          |
-| 3. Ako je x==y onda nastavi na kraj petlje           |
-| 4. Ako nije tvori par y,x unutar varijable(trazeniE)          |
-| 5. Ako je trazeniE u listi ispiši "NE",ispiši razlog te vrati *False*          |
-| 6. Ako nije ispiši "DA" 
-|7. Vrati *True*|
-|8. Ispiši sve u tekstualnu datoteku(.txt)|
+| 2. Za svaki (x,y) par u listi parova provjeri je li x==y. Ako je preskoči na sljedeći par  |
+| 4. Ako nije, tvori par (y,x) i spremi u varijablu **trazeniE**          |
+| 5. Ako je **trazeniE** u listi parova ispiši "NE", pripadajuću poruku te vrati *False*          |
+| 6. Ako nije ispiši "DA" i vrati *True* |
+
 
 **Programski kod:**
 ```python
