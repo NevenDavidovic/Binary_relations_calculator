@@ -1,16 +1,17 @@
 ###  Funkcija za ispitivanje tranzitivnosti binarne relacije <a id="2"></a>
-Binarna relacija je relacija sa svojstvom da ako su **(x,y)∈A i (y,z)∈A** tada mora biti i da su **(x,z)∈A**.
+Neka je ρ binarna relacija na skupu A.
+Binarna relacija je tranzitivna ako za sve **(x,y) ∈ ρ ∧ (y,z) ∈ ρ** ⇒ **(x,z) ∈ ρ**.
 
 
-|   Algoritam:                                           |
+|   Algoritam:                                        |
 |:--------------------------------------------------- |
 | 1. Funkcija uzima kao parametar listu parova        |
-| 2. Uspoređuje elemente na indexu  [1] i indexu [0]  |
+| 2. Uspoređuje elemente svakog pojedinog para (index [1] i index [0])  |
 | 3. Ako su isti preskoči na drugi par u listi parova |
-| 4.  Ako nisu spremi ih u listu B                    |
-| 5. Ako lista B nema elemenata nastavi na kraj                                                   |
-| 6. Tvori element od indeksa [0] i [1] iz b liste unutar varijable implicElement                                                  |
-| 7. Ako implicElement nije u listi parova ispiši "NE" i razlog te vrati *False*                                                    |
+| 4. Napravi novu listu **B** koja se sastoji samo od onih parova čiji je prvi član jednak drugom članu trenutnog para koji se promatra                    |
+| 5. Ako takvih članova nema (lista B je prazna), preskoči na slijedeći član listeParova                                                   |
+| 6. Za svaki član liste B napravi novi implicirani član koji se sastoji od prvog elementa iz listaParova (element[0]) i drugog elementa para iz liste B (e[1]) |
+| 7. Provjeri nalazi li se implicirani par u listi parova, te ako ne - ispiši "NE" i razlog te vrati *False*                                                    |
 | 8. Inače ispiši "DA" i vrati *True*                                                    |
 
 
