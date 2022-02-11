@@ -1,6 +1,6 @@
 ###  Funkcija za ispitivanje refleksivnosti binarne relacije 
-Relacija je **refleksivna** ako za **∀x∈A :(xRx)** .To znači da je relacija refleksivna ako je element u odnosu sam sa sobom. 
-Ispitivanje refleksivnosti relacije smo programski riješili uz pomoć dolje navedenog algoritma. 
+Relacija je **refleksivna** ako za **∀ x ∈ A :(xRx)** .Ovo znači da je relacija refleksivna ako je svaki element u odnosu sam sa sobom. 
+Ispitivanje refleksivnosti relacije smo programski riješili uz pomoć slijedećeg algoritma. 
 
 
 | Algoritam                                                                         |
@@ -8,9 +8,9 @@ Ispitivanje refleksivnosti relacije smo programski riješili uz pomoć dolje nav
 | 1. Funkcija prima 2 parametra (skupA i listaParova )                              |
 | 2. Za svaki element u skupu A, stvori uređeni par s istim elementom |
 | 3. Usporedi takav par sa parovima u listi parova                                  |
-| 4. Ako jedan od tako stvorenih parova nije u listi vrati *False*                    |
+| 4. Ako traženi par nije u listi parova vrati *False* i ispiši pripadajuću poruku     |
 | 5. Ako su pak svi tako stvoreni parovi unutar liste parova                        |
-| 6.  Ispiši na ekran "DA"                                                                               |
+| 6.  Ispiši na ekran "DA"                                                           |
 | 7.  Vrati *True*                                                                            |
 
 **Programski kod:**
