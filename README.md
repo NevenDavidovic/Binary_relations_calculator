@@ -32,7 +32,8 @@ _____________________________________________________________________________
  - [Funkcija za ispitivanje refleksivnosti binarne relacije](Funkcije/Refleksivnost.md)  
  - [Funkcija za ispitivanje antirefleksivnosti binarne relacije](Funkcije/Antirefleksivnost.md)  
  - [Funkcija za ispitivanje simetričnosti binarne relacije](Funkcije/Simetričnost.md)    
- - [Funkcija za ispitivanje antisimetričnosti binarne relacije](Funkcije/Antisimetričnost.md)  
+ - [Funkcija za ispitivanje antisimetričnosti binarne relacije](Funkcije/Antisimetričnost.md)
+ - [**Funkcija za ispitivanje svojstava binarnih relacija nad skupom**](Funkcije/IspitivanjeRelacija.md)    
  - [**Glavna funkcija**](Funkcije/GlavnaFunkcija.md) 
 
 
