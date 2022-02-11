@@ -1,13 +1,15 @@
 ###  Funkcija za ispitivanje simetričnosti binarne relacije 
-Binarna relacija se naziva **simetričnom** ako ima svojstvo da ako je lement x u relaciji sa y, tad ujedno i y u relaciji sa x. To znači ako je uređeni par **(x,y)∈A** onda je i **(y,x)∈A**. 
+Neka je ρ binarna relacija na skupu A.
+Binarna relacija je **simetrična** ako za svaki **(x,y) ∈ A × A vrijedi (x,y) ∈ ρ ⇒ (y,x) ∈ ρ**. To znači za svaki uređeni par **(x,y)** mora postojati i **(y,x)** kako bi bio zadovoljen uvjet simetričnosti. 
 
 | Algoritam |
 | --------- |
 | 1. Funkcija prima 1 parametar( listaParova )          |
-| 2. Za svaki element(x,y) u listi parova tvori par sa zamijenjenim elementima (y,x)          |
-| 3. Ako barem jedan takav par nije u listi parova ispiši NE i vrati *False*          |
-| 4. Ako su svi tako tvoreni parovi u listi parova ispiši "DA"         |
-| 5. I vrati *True*          |
+| 2. Za svaki element (x,y) u listi parova provjeri je li x == y, ako je, preskoči na sljedeći par liste          |
+| 3. Za svaki element(x,y) u listi parova napravi novi par sa zamijenjenim elementima (y,x)          |
+| 4. Ako svi tako tvoreni parovi nisu u listi parova ispiši NE i vrati *False*          |
+| 5. Ako su svi tako tvoreni parovi u listi parova ispiši "DA"         |
+| 6. Vrati *True*          |
 
 
 **Programski kod:**
