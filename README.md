@@ -39,6 +39,7 @@ _____________________________________________________________________________
 **Ostale funkcije:**
 - [Grafički prikaz uređenih parova unutar tablice](Features/GrafickiPrikaz.md)
 - [Nasumično generiranje zadataka](Features/RandomGeneriranje.md)
+- [Uređivanje parova binarne relacije](Features/UredjivanjeParova.md)
 - [Ispis rezultata u tekstualnu datoteku](Features/IspisRezultata.md)  
 - Funkcija za provjeru unosa
   
@@ -53,8 +54,10 @@ ____________________________________________________________________________
 _____________________________________________________________________________
 ## Zaključak
 
-Ovakva vrsta programa uvelike može pomoći pri testiranju svojstava binarnih relacija nad zadanim skupom, ali i kao alat za generiranje zadataka i rješenja.   
-Osim rezultata svojim objašnjenjima pomaže razjasniti zašto su određena svojstva prisutna, a  zašto određena nisu.  
+Nadamo se da će ovaj program biti od velike pomoći drugim studentima i osobama koje žele naučiti testirati svojstva binarnih relacija nad skupovima.
+Ovakva vrsta programa može poslužiti kao alat za učenje i samoprovjeru, ali i za generiranje novih zadataka i rješenja.   
+Osim rezultata svojim objašnjenjima pomaže brzo i točno razjasniti zašto su određena svojstva prisutna, a zašto određena nisu.
+Također program pohranjuje riješenja u log datoteku za kasniji pregled.
 
 ___________________________________________________________________________________
 <a href="#top">Povratak na vrh</a>
