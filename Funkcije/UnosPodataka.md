@@ -9,8 +9,9 @@ Jednostavna funkcija koja traži od korisnika unos elemenata skupa, broj parova 
 | Algoritam: | 
 | -------- | 
 | 1. Unos elemenata skupa
-|2. Učitavanje željenog broja uređenih parova
-| 3. Unos uređenih parova     |
+| 2. Pretvaranje unešenog stringa u listu i pohrana skupa u listu **SkupA**
+| 3. Učitavanje željenog broja uređenih parova koristeći for petlju
+| 4. Unos uređenih parova u listu **listaParova**     |
 
 **Programski kod:**
 
@@ -24,7 +25,7 @@ def unosPodataka():
 
     elementiSkupa = input('Unesite elemente skupa A u jednoj liniji\nodvajajući ih zarezom (npr. f,g,d,e,r,t):')
     skupA = list(set(elementiSkupa.split(',')))
-    n = int(input('Koliko parova Zelite unijeti?:'))
+    n = int(input('Koliko parova zelite unijeti?:'))
     #unos n broja parova u glavnu listu (listaParova)
     print('Unesite oba clana para odvojena zarezom.')
     for i in range(n):
