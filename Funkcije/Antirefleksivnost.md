@@ -1,6 +1,6 @@
 ###  Funkcija za ispitivanje antirefleksivnosti binarne relacije <a id="4"></a>
 
-Binarna je relacija **antirefleksivna** ako za **∀x∈A: ~(xRx)**. To znači da niti jedan element nekog zajedničkog skupa nije u u odnosu sam sa sobom.
+Binarna je relacija **antirefleksivna** ako za **∀ x ∈ A: ~(xRx)**. To znači da niti jedan element nekog zajedničkog skupa nije u u odnosu sam sa sobom.
 
 | Algoritam                                        |
 | ------------------------------------------------ |
