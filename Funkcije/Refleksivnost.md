@@ -1,5 +1,5 @@
 ###  Funkcija za ispitivanje refleksivnosti binarne relacije 
-Relacija je **refleksivna** ako za **∀ x ∈ A vrijedi(xRx)** .Ovo znači da je relacija refleksivna ako je svaki element u odnosu sam sa sobom. 
+Relacija je **refleksivna** ako za **∀ x ∈ A vrijedi da je (xRx)** .Ovo znači da je relacija refleksivna ako je svaki element u odnosu sam sa sobom. 
 Ispitivanje refleksivnosti relacije smo programski riješili uz pomoć slijedećeg algoritma. 
 
 
