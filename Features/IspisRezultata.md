@@ -30,10 +30,6 @@ ____________________________________________________________________________
       
 **Primjer jednog ispisa**
 ```
-
-Lokalno vrijeme: Thu Feb 10 23:25:32 2022
-__________Dobrodosli u Ispitivac binarnih relacija v1.0__________
-
 Lokalno vrijeme: Thu Feb 10 23:27:35 2022
 __________Dobrodosli u Ispitivac binarnih relacija v1.0__________
 
