@@ -40,9 +40,9 @@ _____________________________________________________________________________
 **Ostale funkcije:**
 - [Grafički prikaz uređenih parova unutar tablice](Features/GrafickiPrikaz.md)
 - [Nasumično generiranje zadataka](Features/RandomGeneriranje.md)
-- [Uređivanje parova binarne relacije](Features/UredjivanjeParova.md)
+- [Uređivanje parova binarne relacije](Features/UređivanjeParova.md)
 - [Ispis rezultata u tekstualnu datoteku](Features/IspisRezultata.md)  
-- Funkcija za provjeru unosa
+- [Funkcija za provjeru unosa](Features/ProvjeraUnosa.md)   
   
 
 **Cjelokupan programski kod:**  
