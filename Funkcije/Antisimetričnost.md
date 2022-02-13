@@ -2,7 +2,7 @@
 
 Neka je ρ binarna relacija na skupu A.
 Binarna je relacija **antisimetrična** ako za svaki **(x,y) ∈ A × A, (x,y) ∈ ρ ∧ (y,x) ∈ ρ ⇒ x = y**. 
-To znači da ako za svaki uređeni par relacije (x,y) postoji i (x,y), tada mora vrijediti x = y.
+To znači da ako za svaki uređeni par relacije (x,y) postoji i (y,x), tada mora vrijediti x = y.
 
 
 | Algoritam |
