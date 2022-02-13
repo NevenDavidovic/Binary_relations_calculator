@@ -5,14 +5,14 @@ import re
 import random
 import time
 
-###___SPREMIsTA_PODATAKA___
+###___SPREMISTA_PODATAKA___
 listaParova = list()
 skupA = list()
 
 
-###___POMOĆNE_FUNKCIJE___
+###___POMOCNE_FUNKCIJE___
 
-#Funkcija koja iz stringa uklanja znakove [] i ' npr. [('a','b')] ispisati će kao (a, b)    
+#Funkcija koja iz stringa uklanja znakove [] i ' npr. [('a','b')] ispisati ce kao (a, b)    
 def formatStr(s)->str:
     return str(s).replace("'","").strip('[]')
 
@@ -37,7 +37,7 @@ def unosPodataka():
 
     elementiSkupa = input('Unesite elemente skupa A u jednoj liniji\nodvajajući ih zarezom (npr. f,g,d,e,r,t):')
     skupA = list(set(elementiSkupa.split(',')))
-    n = int(input('Koliko parova Zelite unijeti?:'))
+    n = int(input('Koliko parova zelite unijeti?:'))
     #unos n broja parova u glavnu listu (listaParova)
     print('Unesite oba clana para odvojena zarezom.')
     for i in range(n):
@@ -46,7 +46,6 @@ def unosPodataka():
          listaParova.append(par)
     
     
-
 def ispisUlaznihPodataka():
     print('\nUneseni parovi su:')
     print(formatStr(listaParova))
@@ -138,7 +137,8 @@ def uredjivanjeParova():
                 if provjeraUnosa(noviParovi,skupA):
                     #brisanje iz liste
                     for item in noviParovi:
-                        listaParova.remove(item)
+                        if item in listaParova:
+                            listaParova.remove(item)
                     ispisUlaznihPodataka()
                     ispitivanjeRelacija()
 
@@ -363,5 +363,6 @@ while True:
     if izbor == 'NE' or izbor == 'ne' or izbor == 'Ne': break
    
 input("Kraj programa! Pritisnite ENTER.")    
+    
 
 ```
