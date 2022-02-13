@@ -48,9 +48,10 @@ def uredjivanjeParova():
                     noviParovi.append((item[1],item[3]))
                 #provjeri odgovaraju li uneseni parovi elementima zadanog skupa
                 if provjeraUnosa(noviParovi,skupA):
-                    #brisanje iz liste
+                   #brisanje iz liste
                     for item in noviParovi:
-                        listaParova.remove(item)
+                        if item in listaParova:
+                            listaParova.remove(item)
                     ispisUlaznihPodataka()
                     ispitivanjeRelacija()
 ```
